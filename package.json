@@ -1,0 +1,19 @@
+{
+  "name": "webpack_tut",
+  "version": "1.0.0",
+  "description": "This is a simple webpack setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochellecanale/webpack_tut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rochellecanale/webpack_tut/issues"
+  },
+  "homepage": "https://github.com/rochellecanale/webpack_tut#readme"
+}
