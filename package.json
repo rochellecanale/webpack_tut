@@ -4,7 +4,11 @@
   "description": "This is a simple webpack setup",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "build:prod": "webpack -p",
+    "start": "node server.js",
+    "dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/rochellecanale/webpack_tut/issues"
   },
-  "homepage": "https://github.com/rochellecanale/webpack_tut#readme"
+  "homepage": "https://github.com/rochellecanale/webpack_tut#readme",
+  "devDependencies": {
+    "webpack": "^3.12.0",
+    "webpack-dev-server": "^2.11.5"
+  }
 }
